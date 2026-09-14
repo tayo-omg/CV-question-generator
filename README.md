@@ -150,7 +150,7 @@ Example response:
     {
       "claim": "Led a team that recovered debts exceeding N300 million.",
       "question": "How did you lead your team to recover over N300 million?",
-      "expected_answer": [
+      "expected_points": [
         "Explain the candidate's leadership role",
         "Describe the recovery approach",
         "Explain how the result was measured"
@@ -172,7 +172,7 @@ Example response:
 |---|---|
 | `claim` | A professional statement extracted from the CV. |
 | `question` | A short interview question connected to the claim. |
-| `expected_answer` | Two to four points a strong answer should address. |
+| `expected_points` | Two to four points a strong answer should address. |
 | `difficulty` | The question level: Easy, Medium or Hard. |
 | `red_flags` | Warning signs to watch for in the candidate’s answer. |
 
