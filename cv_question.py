@@ -36,7 +36,7 @@ app = FastAPI(
 class CandidateQuestion(BaseModel):
     claim: str
     question: str
-    expected_answer: List[str]
+    expected_points: List[str]
     difficulty: Literal["Easy", "Medium", "Hard"]
     red_flags: List[str]
 
