@@ -134,19 +134,45 @@ Requirements:
 - Do not generate general knowledge or trivia questions.
 - Do not use contact information from the CV.
 
-Example:
+- Tie every question to a specific claim AND the job requirement it
+  verifies. Do not merely repeat or rephrase the claim. Use relevant
+  professional domain knowledge to identify one high-value aspect of
+  the claimed work that a competent person should be able to explain,
+  such as architecture, implementation, tool selection, validation,
+  troubleshooting, security, scalability, limitations or trade-offs.
+  - The question may introduce a relevant technical concept, decision or
+  evaluation criterion that is not explicitly named in the CV, provided
+  it logically follows from the candidate's claim and the job
+  requirement. Do not state or assume that the candidate used a
+  particular tool, method or architecture unless the CV says so. Ask
+  how they approached the issue in their own implementation.
+  - Focus on the part of the claim most relevant to the job and test
+  whether the candidate understands the decisions, requirements and
+  consequences involved in doing that work in practice.
 
-Claim: "Led a team that recovered debts exceeding N300 million
-and reclaimed properties from debtors."
+    Example of claim-based technical verification:
 
-Good question:
-"How did you lead your team to recover over N300 million in debt?"
+      Candidate claim: "Built a Retrieval-Augmented Generation system."
 
-Bad question:
-"Describe the strategy used to recover these debts and reclaim
-properties. How did you validate the claims, select legal or
-negotiated remedies, allocate work across the team and measure
-the amount recovered?"
+      Too close to the CV:
+      "Tell me about the RAG system you built."
+
+      Too general:
+      "What are the requirements of a RAG system?"
+
+      Better:
+      "In the RAG system you built, how did you choose the retrieval
+      strategy and evaluate whether the retrieved context improved
+      answer quality?"
+
+      Also acceptable:
+      "How did you prevent irrelevant retrieved documents from reducing
+      answer quality in the RAG system you built?"
+
+    The better questions use professional knowledge to examine the
+    candidate's actual implementation without assuming tools or methods
+    that the CV did not mention.
+    
 
 - For every interview question, provide the following:
 
